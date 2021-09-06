@@ -1,0 +1,41 @@
+html * {
+    font-family: 'Cascadia Mono';
+}
+    #content{
+        display: grid;
+        grid-template-rows: 0.2fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #heading{
+        grid-area: 1/1;
+        font-size: 80px;
+        color: white;
+        justify-self: center;
+    }
+
+    #tabs{
+        grid-area: 1/1;
+        display: flex;
+        font-size:40px;
+        color: white;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #intro{
+        grid-area: 2/1;
+        font-size: 30px;
+        height: 300px;
+        width: 600px;
+        justify-self: center;
+        color: white;
+        background-color: rgba(255,255,255,25%);
+    }
+    body{
+        display: grid;
+        grid-template-rows: 0.5fr 2fr;
+        grid-template-columns: 1fr;
+        background: url("background2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        }
