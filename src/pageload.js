@@ -25,14 +25,6 @@ function pageload(){
     document.querySelector("#tabs").appendChild(tab2);
     document.querySelector("#tabs").appendChild(tab3);
 
-
-
-    const intro = document.createElement('div');
-    intro.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod similique, 
-    voluptas pariatur delectus odit maxime accusantium, dolores quae sequi explicabo adipisci 
-    totam perferendis harum neque? Est soluta laudantium ipsam.`;
-    intro.setAttribute("id","intro");
-    document.querySelector("#content").appendChild(intro);
 }
 
 export {pageload};
