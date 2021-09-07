@@ -1,4 +1,4 @@
-function about(){
+function displayAbout(){
     const intro = document.createElement('div');
     intro.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod similique, 
     voluptas pariatur delectus odit maxime accusantium, dolores quae sequi explicabo adipisci 
@@ -7,4 +7,4 @@ function about(){
     document.querySelector("#content").appendChild(intro);
 }
 
-export {about};
+export {displayAbout};

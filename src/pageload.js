@@ -7,7 +7,7 @@ function pageload(){
 
     const tabs = document.createElement('div');
     tabs.setAttribute("id","tabs");
-    document.querySelector("#content").appendChild(tabs);
+    document.body.appendChild(tabs);
 
     const tab1 = document.createElement('button');
     tab1.textContent = "About";
