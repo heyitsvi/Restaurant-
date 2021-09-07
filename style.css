@@ -9,6 +9,19 @@ html * {
         grid-auto-flow: column;
     }
 
+    #contact{
+        display: grid;
+        color: white;
+        white-space: pre;
+        background-color: rgba(255,255,255,10%);
+        width: fit-content;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
     #heading{
         grid-area: 1/1;
         font-size: 80px;
