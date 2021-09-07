@@ -30,7 +30,7 @@ function clickTab(){
 
     Btn3.addEventListener("click", event => {
         clearDisplay();
-        // displayContact()
+        displayContact();
     });
 }
 clickTab();
