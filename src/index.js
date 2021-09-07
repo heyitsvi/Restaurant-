@@ -19,7 +19,7 @@ function clickTab(){
     const Btn2 = document.querySelector("#Btn2");
     const Btn3 = document.querySelector("#Btn3");
     const Btns = document.querySelector(".tabBtn");
-
+    displayAbout();
     Btn1.addEventListener("click", event => {
         clearDisplay();
         displayAbout()});
