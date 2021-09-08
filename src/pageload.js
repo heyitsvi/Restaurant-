@@ -2,7 +2,6 @@ function pageload(){
     const title = document.createElement('div');
     title.textContent = "La Bel Restaurant";
     title.setAttribute("id","heading");
-    console.log(document.body);
     document.body.appendChild(title);
 
     const tabs = document.createElement('div');
