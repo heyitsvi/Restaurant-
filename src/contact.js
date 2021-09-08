@@ -11,7 +11,7 @@ function displayContact(){
     const address = document.createElement("div");
     address.textContent=`
 Phone Number: +1 303-205
-Email: la-bel.ca
+Email: inquiries@label.ca
 6263 Leland Way, Los Angeles, CA 90028, United States`;
     contact.appendChild(address);
 }
